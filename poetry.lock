@@ -1,0 +1,17 @@
+[[package]]
+category = "main"
+description = "a library for MurmurHash3, a set of fast and robust hash functions"
+name = "murmurhash3"
+optional = false
+python-versions = "*"
+version = "2.3.5"
+
+[metadata]
+content-hash = "d23333eed6a3028b563dbc6ed79e24fb55f17b1ad1bef6e4dc8171844c0b02d6"
+lock-version = "1.0"
+python-versions = "^3.8"
+
+[metadata.files]
+murmurhash3 = [
+    {file = "murmurhash3-2.3.5.tar.gz", hash = "sha256:f53387d1425a165427b55f1938355e5c05beecbcf180ef1738bd892082f6bfbd"},
+]
