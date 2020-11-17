@@ -35,7 +35,14 @@ def print_fruit_id(fruit_id):
     print("The fruit is an apple!")
   else:
     print("The fruit is an orange!")
-  print(f"It's id is.... {id}")
+  print(f"Its id is.... {id}")
 
+# Prints:
+# The fruit is an apple!
+# Its id is.... golden yellow
 print_fruit_id(apple_fruit_id)
+
+# Prints:
+# The fruit is an orange!
+# Its id is.... 5dc6384c18150b6d2ab5cf2b854d074c
 print_fruit_id(orange_fruit_id)
