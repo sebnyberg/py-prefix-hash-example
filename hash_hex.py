@@ -28,7 +28,7 @@ def parse_fruit_id(fruit_id):
     if prefix == APPLE_TYPE:
         return prefix, id_bytes[1:].decode("utf-8")
     
-    return prefix, fruit_id[1:].hex()
+    return prefix, id_bytes[1:].hex()
 
 def print_fruit_id(fruit_id):
   fruit_type, id = parse_fruit_id(fruit_id)
@@ -46,4 +46,4 @@ print_fruit_id(apple_fruit_id)
 # Prints:
 # The fruit is an orange!
 # Its id is.... 5dc6384c18150b6d2ab5cf2b854d074c
-# print_fruit_id(orange_fruit_id)
+print_fruit_id(orange_fruit_id)
