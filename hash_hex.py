@@ -5,11 +5,11 @@ import mmh3
 # Apple is a two-way hash
 # The goal is to be able to derive the apple ID from the fruit ID
 APPLE_TYPE = 1
-APPLE_TYPE_PREFIX = struct.pack(">B", APPLE_TYPE)
+APPLE_TYPE_PREFIX = struct.pack(">H", APPLE_TYPE)
 
 # Orange is a one-way hash
 ORANGE_TYPE = 2
-ORANGE_TYPE_PREFIX = struct.pack(">B", ORANGE_TYPE)
+ORANGE_TYPE_PREFIX = struct.pack(">H", ORANGE_TYPE)
 
 ## Create a fruit ID from an apple
 apple_id = "golden yellow"
